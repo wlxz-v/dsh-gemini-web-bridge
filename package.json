@@ -1,0 +1,51 @@
+{
+  "name": "dsh-gemini-web-bridge",
+  "version": "0.2.0",
+  "description": "Bridge Google Gemini Web (Gemini 4 Hydrogen / Neon / Auto) into DeepSeek Harness as an OpenAI-compatible model provider with strict available-only verification and anti-stalling streaming",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "bin",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "gemini",
+    "gemini-4",
+    "hydrogen",
+    "neon",
+    "argon",
+    "web2api",
+    "cordis"
+  ],
+  "license": "MIT",
+  "author": "wlxz-v",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wlxz-v/dsh-gemini-web-bridge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wlxz-v/dsh-gemini-web-bridge/issues"
+  },
+  "homepage": "https://github.com/wlxz-v/dsh-gemini-web-bridge#readme",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-ui-slots"
+      ]
+    }
+  }
+}

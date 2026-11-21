@@ -1,0 +1,14 @@
+{
+  "port": 51131,
+  "host": "0.0.0.0",
+  "retry_attempts": 3,
+  "retry_delay_sec": 2,
+  "request_timeout_sec": 180,
+  "gemini_bl": "boq_gemini-web-uiserver_20261120.09_p0",
+  "auth_user": null,
+  "xsrf_token": "YOUR_XSRF_TOKEN_HERE",
+  "cookie_file": "./cookie.txt",
+  "proxy": "http://127.0.0.1:7890",
+  "impersonate": "chrome_124",
+  "log_requests": false
+}

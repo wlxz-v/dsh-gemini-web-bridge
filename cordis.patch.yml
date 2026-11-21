@@ -1,0 +1,3 @@
+- insert:
+    - id: gemini-web-bridge
+      name: 'dsh-gemini-web-bridge'
