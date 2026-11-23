@@ -1,7 +1,7 @@
 {
   "name": "dsh-gemini-web-bridge",
-  "version": "0.2.0",
-  "description": "Bridge Google Gemini Web (Gemini 4 Hydrogen / Neon / Auto) into DeepSeek Harness as an OpenAI-compatible model provider with strict available-only verification and anti-stalling streaming",
+  "version": "0.3.0",
+  "description": "Bridge Google Gemini Web (Gemini 4 Hydrogen / Neon / Task / Auto) into DeepSeek Harness as an OpenAI-compatible model provider with official Task Mode, strict available-only verification, and anti-stalling streaming",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
